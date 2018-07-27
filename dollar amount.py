@@ -36,7 +36,7 @@ def int_to_string(input_number):
     return int_string
 
 input_string = str(input("Enter a dollar amount:\n")) #User prompt
-output_string = "" #All ouput will be appended to this string
+output_string = "" #All output will be appended to this string
 
 #separate dollars and cents and thousands
 if '.' in input_string:
